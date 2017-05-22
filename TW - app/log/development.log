@@ -1,0 +1,745 @@
+
+
+Started GET "/" for ::1 at 2017-05-19 10:38:07 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 3437ms (Views: 3395.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-05-19 10:38:12 +0100
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2017-05-19 10:38:12 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2017-05-19 10:38:12 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2017-05-19 10:38:12 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2017-05-19 10:38:12 +0100
+
+
+Started GET "/" for ::1 at 2017-05-19 10:38:15 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:38:43 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"En7IefUPSbFe30tWOwHGZloADbD/O0+kZ05YHFMK7exwYHDaVDZ9eX4aOHfveEctKE0CcIwNmZ5N0fgF78Uf2Q==", "plateau_corner"=>"3 3", "current_position"=>"2 4 E", "commands"=>"LMLMLMMM", "commit"=>"GO"}
+Robot can't move outside to 2, 5
+Robot can't move outside to 1, 4
+  Rendered rovers/_result.html.erb (0.6ms)
+  Rendered rovers/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 139ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:51:41 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNjISejRzOkMt9YDy//d8U04j6hgCwR65QXp2DcKj43ixnDqSej4ISxypSIfhly6P3WAaBM90kDPmknBi8V9uA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 3136ms (Views: 3133.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:51:44 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNjISejRzOkMt9YDy//d8U04j6hgCwR65QXp2DcKj43ixnDqSej4ISxypSIfhly6P3WAaBM90kDPmknBi8V9uA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:52:20 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNjISejRzOkMt9YDy//d8U04j6hgCwR65QXp2DcKj43ixnDqSej4ISxypSIfhly6P3WAaBM90kDPmknBi8V9uA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 199ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:52:41 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNjISejRzOkMt9YDy//d8U04j6hgCwR65QXp2DcKj43ixnDqSej4ISxypSIfhly6P3WAaBM90kDPmknBi8V9uA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-19 10:52:58 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNjISejRzOkMt9YDy//d8U04j6hgCwR65QXp2DcKj43ixnDqSej4ISxypSIfhly6P3WAaBM90kDPmknBi8V9uA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 16:38:42 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 458ms (Views: 430.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-05-22 16:38:43 +0100
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2017-05-22 16:38:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2017-05-22 16:38:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2017-05-22 16:38:43 +0100
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for ::1 at 2017-05-22 16:38:43 +0100
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:42:44 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aUGW03LyAwtaMzmwk/tLQFcW9MDA3MkVhdWBCTwzkj9dDB/nX/p5w24RUSTghYjMAA0j8WJdK7WeeexrBvg/dg==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.6ms)
+  Rendered rovers/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 79ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:44:19 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1iCmMOENOsiHYyJkgd2nsJzMfdr90HVHWE42vLK6v0bibS8EzAVAALNBSvDyo2Q8y9eq619Rl+dD4lveiHESDw==", "plateau_corner"=>"5 5", "current_position"=>"0 0 N", "commands"=>"RM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:45:08 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SpoYcqvw+cXbNG8gizYu0XU1gcYuobCgIiv+x/et0n5+15FGhviDDe8WB7T4SO1dIi5W94wgUgA5h5OlzWZ/Nw==", "plateau_corner"=>"5 5", "current_position"=>"1 0 N", "commands"=>"RM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:45:19 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vZKr+BuSKEFLKE33V8WSoWOqur49pFVraeE5+sTkjBWJ3yLMNppSiX8KJWMku1EtNLFtj58lt8tyTVSY/i8hXA==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"RM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:45:41 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UWRZD7KKtsRbth7030XNJBaH9ptIN7yJ7wUsJ/qJOGxlKdA7n4LMDG+UdmCsOw6oQZwhquq2Xin0qUFFwEKVJQ==", "plateau_corner"=>"", "current_position"=>"1 2 N", "commands"=>"RM", "commit"=>"Submit"}
+  Rendered rovers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:45:42 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mDpVbVi/AlQD7qUg/0t5O8HqzfLKlOTkeCCGiAN6RyWsd9xZdbd4nDfMzbSMNbq3lvEaw2gVBkRjjOvqObHqbA==", "plateau_corner"=>"", "current_position"=>"1 2 N", "commands"=>"RM", "commit"=>"Submit"}
+  Rendered rovers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:46:03 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d252Nri+V9mvpPHonxuztuVuDvAOnXYF+AxRgPKkAERDI/8ClbYtEZuGmXzsZXA6snXZwawclKXjoDziyG+tDQ==", "plateau_corner"=>"5 5", "current_position"=>"6 6 N", "commands"=>"RM", "commit"=>"Submit"}
+Robot can't move outside to 7, 6
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:46:13 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uzuG4pTFHUpzIdAlNnLCQ1/QFgyrBU9ntsWvgygoDLyPdg/Wuc1ngkcDuLFFDAHPCMvBPQmErcetacLhEuOh9Q==", "plateau_corner"=>"5 5", "current_position"=>"6 9 N", "commands"=>"RM", "commit"=>"Submit"}
+Robot can't move outside to 7, 9
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:46:22 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hnNTqJyaCKA4I+AgS9bn80U2h8Cu88686TE6pR9yZd2yPtqcsZJyaAwBiLQ4qCR/Ei1Q8QxyLBzynVfHJbnIlA==", "plateau_corner"=>"5 5", "current_position"=>"", "commands"=>"", "commit"=>"Submit"}
+  Rendered rovers/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 16:46:56 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KKvykgNFCrI1Yc42bVXq8lUdfQHPTJfWIp0qMVHO4wsc5numLk1wegFDpqIeKyl+AgaqMG3NdXY5MUdTawVOQg==", "plateau_corner"=>"789 789", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:08:00 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WB7+9j3KspU/D/l2P42Es4lu5tRU+8Le2qEN72tC1X9sU3fCEMLIXQstkeJM80c/3nUx5fZ6IH7BDWCNUYl4Ng==", "plateau_corner"=>"5 5", "current_position"=>"5 5 N", "commands"=>"LMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:10:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.8ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (178.1ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (88.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (223.9ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:10:07 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (95.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (214.8ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:11:09 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (145.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (95.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (206.6ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:11:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (130.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (86.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (208.2ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:11:13 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:11:30 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jwoLECe91kTTax8/a/GowpooOoug9tosttAigIqkp0W7R4IkCrWsjOdJd6sYj2tOzTPtugJ3OIytfE/isG8KDA==", "plateau_corner"=>"5 5", "current_position"=>"5 5 N", "commands"=>"LMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:13:30 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TEJsJFEbqmgzIjQVgPOnAfGZf1n5EKH5ZZ8m5EG6ZXVfICEvEwUYZTu4EQlfQ0QUN2yzMVloCf+OhH5q81E3A==", "plateau_corner"=>"5 5", "current_position"=>"5 5 N g", "commands"=>"LMM", "commit"=>"Submit"}
+  Rendered rovers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:13:45 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v4CcdcuO7+OJFy1lqj2OP/BDevTUbiJJdlIsnMR8DAGLzRVB5oaVK701RfHZQ02zp1itxXbvwOlt/kH+/rehSA==", "plateau_corner"=>"5 5", "current_position"=>"5 5 3 N ", "commands"=>"LMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 169ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:17:50 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (81.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.4ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:17:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (129.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (182.8ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 17:17:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (103.1ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (211.8ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:17:58 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:18:12 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5PrHZWUZxqPjyNkotzAzhKx6OvkU5lWHgZXtdvOdJZ7Qt05RSBG8a9fqsbzETvAI+2HtyLZntyeaOYAUyVaI1w==", "plateau_corner"=>"5 5", "current_position"=>"55N", "commands"=>"LMM", "commit"=>"Submit"}
+  Rendered rovers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:18:26 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3zPnfm17kuV8ZVpdg9IXosvxeImE5HYz5qRJgXJwhRjrfm5KQHPoLUhHMsnwrNQunOqvuCZllJP9CCTjSLsoUQ==", "plateau_corner"=>"5 5", "current_position"=>"5 5 N", "commands"=>"L M M", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:18:35 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2017-05-22 17:18:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (93.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (201.9ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:18:47 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:51:18 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 402ms (Views: 376.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:52:09 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:52:42 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:52:51 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:53:15 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:53:39 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 17:54:22 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:54:40 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/JfgY2bQPAVl2n1UqnEStTv69TP7sLeNtJJwKqNP6yLI2mlXS9hGzVH4FcDZD9E5bOEiAlkxVS2vPh1ImYRGaw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.6ms)
+  Rendered rovers/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 89ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:55:00 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/JfgY2bQPAVl2n1UqnEStTv69TP7sLeNtJJwKqNP6yLI2mlXS9hGzVH4FcDZD9E5bOEiAlkxVS2vPh1ImYRGaw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:55:05 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rJKcoJ1Wx6C8TDYgD7fnAQLfqPht0mSqwSVhV+i0fgaY3xWUsF69aIhuXrR8ySSNVcR/yc9ThgraiQw10n/TTw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:55:56 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jr0x+KeCOSRo92zg4NLGnuO1q0+TyKiSVjMTMAeZt8a68LjMiopD7FzVBHSTrAUStK58fjFJSjJNn35SPVIajw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 17:56:11 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jr0x+KeCOSRo92zg4NLGnuO1q0+TyKiSVjMTMAeZt8a68LjMiopD7FzVBHSTrAUStK58fjFJSjJNn35SPVIajw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (0.4ms)
+  Rendered rovers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rovers/move" for ::1 at 2017-05-22 18:01:53 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rovers/move"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (71.9ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (183.2ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (555.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (94.4ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/jamiegrantham-burton/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (235.1ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 18:02:19 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 492ms (Views: 491.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-22 18:02:30 +0100
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for ::1 at 2017-05-22 18:02:42 +0100
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jCczovEP9cVqCC8+9aFkxYWqVH5Pn7GR9AXENcxn0e64arqW3AePDV4qR6qG36dJ0rGDT+0eUzHvqalX9qx8pw==", "plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMM", "commit"=>"Submit"}
+  Rendered rovers/_result.html.erb (1.0ms)
+  Rendered rovers/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 92ms (Views: 62.8ms | ActiveRecord: 0.0ms)

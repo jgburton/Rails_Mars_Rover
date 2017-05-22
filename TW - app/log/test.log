@@ -1,0 +1,24 @@
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+Processing by RoversController#move as HTML
+  Parameters: {"plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM"}
+  Rendered rovers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+Robot can't move outside to 5, 6
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+Processing by RoversController#move as HTML
+  Parameters: {"plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM"}
+  Rendered rovers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Robot can't move outside to 5, 6
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+Processing by RoversController#move as HTML
+  Parameters: {"plateau_corner"=>"5 5", "current_position"=>"1 2 N", "commands"=>"LMLMLMLMM"}
+  Rendered rovers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Robot can't move outside to 5, 6
